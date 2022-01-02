@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tour Library</title>
+	
+	<link rel="stylesheet" href="library-styles.css">
+	<link rel="icon" type="image/icon" href="images/wheel-logo.ico">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet"> 
+	
+	
+</head>
+
+<body>
+	<header>
+
+		<!--
+		<div class="river">
+			<img src="images/medium-river.png" alt="river">
+		</div> -->
+		
+		<div class="logo">
+		  <img src="images/wheel-logo.png" alt="logo">
+		</div>
+		
+		<h1><a href="index.html">His<i>tour</i>ian</a></h1>
+		<nav class="site-nav">
+			<ul>
+				<li><a href="about.html"> About </a></li>
+				<li><a href="#"> Tour Library </a></li>
+				<li><a href="#"> Map </a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<div class="filters">
+			<form action="/action_page.php">
+  				<label for="eras">Filter by era:</label>
+ 				<select name="eras" id="eras">
+						<option value="colonial">Colonial Era</option>
+						<option value="founding">Founding Era</option>
+						<option value="eighteenth">Eighteenth Century</option>
+						<option value="nineteenth">Nineteenth Century</option>
+						<option value="twentieth">Nineteenth Century</option>
+  				</select>
+ 			 <input type="submit" value="Submit">
+			</form>
+			
+			<form action="/action_page.php">
+  				<label for="location">Filter by location:</label>
+ 				<select name="location" id="location">
+					  <option value="massachusetts">Massachusetts</option>
+					  <option value="rhode-island">Rhode Island</option>
+  				</select>
+ 			 <input type="submit" value="Submit">
+			</form>
+			
+		</div>
+		<div class="row">
+			<div class="col col-comp">
+				<div class="post"> <a href="little-compton.html"> 
+					<img src="images/petunia.jpeg" alt="petunia">
+					<h3> Farming in Little Compton </h3>	
+					</a>
+				</div>
+			</div>
+			<div class="col col-comp">
+				<div class="post"> <a href="#">
+					<img src="images/flag.jpeg" alt="flag" >
+					<h3> Revolution and Remembrance in Bristol </h3>
+					</a>
+				</div>
+			</div>
+			<div class="col col-comp">
+				<div class="post"> <a href="#"> 
+					<img src="images/whale.jpg" alt="whale" >
+					<h3> The Rise and Fall of New Bedford's Whale-Fishery </h3>		
+					</a>
+				</div>
+			</div>
+			<div class="col col-comp">
+				<div class="post"> <a href="#"> 
+					<img src="images/newport-religion.jpg" alt="church-interior" >
+					<h3> Religion in Newport </h3>		
+					</a>
+				</div>
+			</div>
+			<div class="col col-comp">
+				<div class="post"> <a href="#"> 
+					<img src="images/nyc-newport.jpg" alt="newport-harbor" >
+					<h3> New York in Newport </h3>		
+					</a>
+				</div>
+			</div>
+			<div class="col col-comp">
+				<div class="post"> <a href="#"> 
+					<img src="images/nyc-capital.jpg" alt="washington" >
+					<h3> New York's Capital Years: 1785–90 </h3>		
+					</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	
+	<footer>
+		
+		<p> Copyright &copy; Lucy Knox 2021 </p>
+	
+	</footer>
+</body>
+</html>

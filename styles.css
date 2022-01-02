@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+	
+}
+
+
+
+	
+header{
+	width: 100%;
+	/*height: 666px;*/
+	position: fixed;
+	top: 0px;
+	/*background-image: url("images/medium-river.png")*/
+	/*pointer-events: none;*/
+}
+
+
+
+header h1 {
+	position: fixed; 
+	left: 9.5vw;
+	top: 1.5vw; 
+	font-size: 5vw;
+	margin: 0;
+}
+
+.river img {
+	width: 100%;
+	pointer-events: none;
+	
+}
+
+.logo img {
+	position: fixed;
+	left: 3vw;
+	top: 2vw;
+	width: 5vw;
+	height: 5vw;
+	
+}
+
+nav { 
+	position: fixed;
+	left: 40vw;
+	top: 0vw;
+	height: 8vw;
+	margin: 0;
+	padding: 0;
+	/*border: solid 1px pink;*/
+	z-index: 4;
+}
+
+nav ul {
+	width: 46vw;
+	height: 8vw;
+	float: right;
+	padding: 0;
+	margin-top: 0;
+	/*border: solid 1px green;*/
+	
+}
+
+nav ul li {
+	list-style-type: none;
+	width: 15vw;
+	height: 8vw;
+	float: left;
+	position: static;
+	font-size: 2.5vw;
+	font-family: 'Sorts Mill Goudy', serif;
+	text-align: center;
+	/*border: solid 1px red;*/
+	padding: 0;
+}
+
+nav ul li a {
+	line-height: 10vw;
+	display: block;
+
+}
+
+body{
+	margin: 0;
+	background-image: linear-gradient(#FAF0B9, #ffffff)
+
+}
+
+.tagline {
+	margin-left: 20vw;
+	margin-top: 20vw;
+	margin-right: 20vw;
+	margin-bottom: 0;
+	font-size: 3vw;
+	/*border: solid 10px #262461;*/
+	padding: 1vw;
+	text-align: center;
+	width: 60vw;
+	/*background: #9BBFCC;*/
+	
+}
+
+h1, h2, h3{
+	font-family: 'Sorts Mill Goudy', serif;
+	color:#262461;
+	font-weight: 400;
+}
+
+
+p{
+	font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+}
+
+
+
+main img{
+	width: 100%;
+	border: 10px solid #262461;
+}
+	
+.post {
+	margin: 80px;
+	margin-top: 50px;
+	z-index: 100;
+	
+}
+
+.post h3{
+	text-align: center;
+	font-size: 5vw;
+}
+
+a{
+	color:#262461;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#9bbfcc;
+}
+
+
+
+footer {
+	background-color: #FAF0B9;
+	text-align: center;
+	padding: 50px;
+	color:#262461
+
+}
+
+.col {
+	width: 100%;
+	
+}
+
+
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+
+
+@media (min-width: 1024px) {
+	.col-comp {
+	width: 33%;
+	}
+	.col {
+		float: left;
+	}
+	
+	.tagline {
+	/*margin-left: 42vw;
+	margin-top: 16vw;
+	margin-right: 10vw;*/
+	font-size: 2vw;
+	/*border: solid 10px #262461;*/
+	text-align: center;
+	width: 60vw;
+	height: 8vw;
+	float: right;
+	margin-top: 13vw;
+	
+	}
+	
+	.post h3{
+	text-align: center;
+	font-size: 2vw;
+}
+	
+}
+
