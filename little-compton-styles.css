@@ -95,7 +95,7 @@ a:hover{
 .map {
 	height: 100vh;
 	width: 74.4vh;
-	background-image: url("../new-site/images/little-compton/lc-numbers.png");
+	background-image: url("images/little-compton/lc-numbers.png");
 	background-size: cover;
 	position: sticky;
 	top: 0;
@@ -127,7 +127,7 @@ a:hover{
 
 
 footer {
-	background-image: url("../new-site/images/little-compton/grass.jpeg");
+	background-image: url("images/little-compton/grass.jpeg");
 	background-size: cover;
 	text-align: center;
 	padding: 50px;
@@ -223,17 +223,19 @@ footer p {
 	align-content: center;
 	position: sticky;
 	top: 0px;
+	width: 100vw;
 }
 
 .section h1 {
 	padding-top: 5vw;
 	padding-left: 10vw;
 	padding-bottom: 1.5vw;
-	width: 60vw;
+	width: 750px;
 	text-align: left;
 	margin-left: 74.4vh;
 	font-size: 8vh;
 	background: #FAF4D2;
+
 }
 
 

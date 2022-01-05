@@ -95,7 +95,7 @@ a:hover{
 .map {
 	height: 65vh;
 	width: 81.25vh;
-	background-image: url("../new-site/images/bristol/bristol-numbers.png");
+	background-image: url("images/bristol/bristol-numbers.png");
 	background-size: cover;
 	position: sticky;
 	top: 0;
@@ -277,7 +277,7 @@ figcaption.right{
 }
 
 footer {
-	background-image: url("../new-site/images/bristol/street-stripes.jpg");
+	background-image: url("images/bristol/street-stripes.jpg");
 	background-size: cover;
 	text-align: center;
 	padding: 50px;
