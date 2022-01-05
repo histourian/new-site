@@ -160,6 +160,10 @@ option {
 	
 }
 
+main {
+	margin-top: 20vh;
+}
+
 .post h3{
 	text-align: center;
 	font-size: 5vw;

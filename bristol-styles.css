@@ -95,7 +95,7 @@ a:hover{
 .map {
 	height: 65vh;
 	width: 81.25vh;
-	background-image: url("../new-site/images/bristol/bristol-2.png");
+	background-image: url("../new-site/images/bristol/bristol-numbers.png");
 	background-size: cover;
 	position: sticky;
 	top: 0;
@@ -224,6 +224,7 @@ p {
 	background: #CC8383;
 	width: 70vh;
 	margin-left: 95vh;
+	margin-top: 4vh;
 }
 
 .inline-image{
@@ -270,13 +271,13 @@ figcaption.right{
 .PDF-button{
 	padding-bottom: 5vh;
 	text-align: center;
-	margin-left: 85vh;
+	margin-left: 95vh;
 	width: 70vh;
 	
 }
 
 footer {
-	background-image: url("../new-site/images/little-compton/grass.jpeg");
+	background-image: url("../new-site/images/bristol/street-stripes.jpg");
 	background-size: cover;
 	text-align: center;
 	padding: 50px;
@@ -288,7 +289,7 @@ footer p {
 	margin-right: auto;
 	margin-top: 0;
 	margin-bottom: 0;
-	color:#ffffff
+	color: #262461;
 
 }
 

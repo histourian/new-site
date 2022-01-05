@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	/*height: 666px;*/
+	position: fixed;
+	top: 0px;
+	/*background-image: url("images/medium-river.png")*/
+	/*pointer-events: none;*/
+}
+
+
+header h1 {
+	position: fixed; 
+	left: 9.5vw;
+	top: 1.5vw; 
+	font-size: 5vw;
+	margin: 0;
+}
+
+.river img {
+	width: 100%;
+	pointer-events: none;
+	
+}
+
+.logo img {
+	position: fixed;
+	left: 3vw;
+	top: 2vw;
+	width: 5vw;
+	height: 5vw;
+	
+}
+
+nav { 
+	position: fixed;
+	left: 40vw;
+	top: 0vw;
+	height: 8vw;
+	margin: 0;
+	padding: 0;
+	/*border: solid 1px pink;*/
+	z-index: 4;
+}
+
+nav ul {
+	width: 46vw;
+	height: 8vw;
+	float: right;
+	padding: 0;
+	margin-top: 0;
+	/*border: solid 1px green;*/
+	
+}
+
+nav ul li {
+	list-style-type: none;
+	width: 15vw;
+	height: 8vw;
+	float: left;
+	position: static;
+	font-size: 2.5vw;
+	font-family: 'Sorts Mill Goudy', serif;
+	text-align: center;
+	/*border: solid 1px red;*/
+	padding: 0;
+}
+
+nav ul li a {
+	line-height: 10vw;
+	display: block;
+
+}
+
+h1, h2, h3{
+	font-family: 'Sorts Mill Goudy', serif;
+	color:#262461;
+	font-weight: 400;
+}
+
+
+main h1 {
+	margin-top: 30vh;
+	width: 40vw;
+	text-align: center;
+	margin-left: 30vw;
+
+}
+
+
+
+a{
+	color:#262461;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#9bbfcc;
+}
+
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.col {
+	width: 100%;
+	
+}
+
+footer {
+	background-image: url("images/bricks.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 50px;
+	color:#ffffff
+
+}
+
+@media (min-width: 768px) {
+	
+			.col-comp {
+	width: 50%;
+	}
+	.col {
+		float: left;
+	}
+	
+	.blurb{
+		font-size: 20px;
+		margin-left: 21vw;
+		width: 60vw;
+	}
+	
+	.them {
+		padding-top: 4vw;
+	}
+	
+	
+}
+
+
+
+@media (min-width: 1024px) {
+	
+		.col-comp {
+	width: 50%;
+	}
+	.col {
+		float: left;
+	}
+	
+	.blurb{
+		font-size: 24px;
+		margin-left: 21vw;
+		width: 60vw;
+	}
+	
+
+	.them {
+	width: 30vw;
+	margin-left: 14vw;
+	margin-top: 6vw;
+	padding: 2vw;
+	}
+
+	
+	.them p {
+	margin-bottom: 2vw;
+	}
+	
+
+	.them h2 {
+	color: #000;
+	margin-bottom: 2vw;
+	}
+	
+	.us{
+		width: 40vw;
+		padding: 2vw;
+		margin-bottom: 6vw;
+	}
+	
+	.us p {
+	margin-bottom: 2vw;
+	border: solid 4px #262461;
+	background: #9BBFCC;
+	padding: 1vw;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	}
+	
+}
+
+
+
