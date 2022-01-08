@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+header{
+	width: 100%;
+	/*height: 666px;*/
+	position: absolute;
+	top: 0px;
+	/*background-image: url("images/medium-river.png")*/
+	/*pointer-events: none;*/
+	margin-left: 0px;
+	z-index: 0;
+	
+}
+
+header h1 {
+	position: absolute; 
+	left: 9.5vw;
+	top: 1.5vw; 
+	font-size: 5vw;
+	margin: 0;
+}
+
+.logo img {
+	position: absolute;
+	left: 3vw;
+	top: 2vw;
+	width: 5vw;
+	height: 5vw;
+	
+}
+
+nav { 
+	position: absolute;
+	left: 40vw;
+	top: 0vw;
+	height: 8vw;
+	margin: 0;
+	padding: 0;
+	/*border: solid 1px pink;*/
+	z-index: 4;
+}
+
+nav ul {
+	width: 46vw;
+	height: 8vw;
+	float: right;
+	padding: 0;
+	margin-top: 0;
+	/*border: solid 1px green;*/
+	
+}
+
+nav ul li {
+	list-style-type: none;
+	width: 15vw;
+	height: 8vw;
+	float: left;
+	position: static;
+	font-size: 2.5vw;
+	font-family: 'Sorts Mill Goudy', serif;
+	text-align: center;
+	/*border: solid 1px red;*/
+	padding: 0;
+}
+
+nav ul li a {
+	line-height: 10vw;
+	display: block;
+
+}
+
+h1, h2, h3{
+	font-family: 'Sorts Mill Goudy', serif;
+	color:#262461;
+	font-weight: 400;
+}
+
+a{
+	color:#262461;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#9bbfcc;
+}
+
+
+.map {
+	height: 100vh;
+	width: 71.5vh;
+	background-image: url("images/new-bedford/fixed-map.png");
+	background-size: cover;
+	position: sticky;
+	top: 0;
+	float: left;
+}
+
+
+.title {
+	margin-top: 12vw;
+	text-align: center;
+	margin-bottom: 4vw;
+	background: #9BBFCC;
+	border: solid 8px #262461;
+	width: 50vw;
+	padding-top: 0.5vw;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2vw;
+}
+
+.title h1{
+	color: #262461;
+}
+
+
+
+.post {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.post::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.post .prose {
+	width: 100%;
+	float: left;
+	background: #406CAD;
+	margin-top: -100vh;
+
+}
+
+
+.icon {
+	margin-left: 47.5vh;
+	margin-top: -7.5vh;
+	width: 15vh;
+	opacity: 0;
+	transition: opacity .3s .25s ease-out;
+	will-change: opacity;
+}
+
+.icon.is-visible{
+	opacity: 1;
+}
+
+
+.section-head {
+	align-content: center;
+	position: sticky;
+	top: 0;
+	height: 100vh;
+	width: 71.5vh;
+	margin-left: 0;
+
+}
+
+/*.section-head.part-one {
+	background-image: url("images/new-bedford/just-stars-one.png");
+	backgroun-size: cover;
+}*/
+
+.star {
+	width: 100%;
+	height: 100%;
+	margin-top: -20.75vh;
+}
+
+.section-head h2 {
+	height: 12vh;
+	margin-left: 55vh;
+	width: 35vw;
+	background: #9BBFCC;
+	text-align: center;
+	font-size: 3vw;
+	border: solid 8px #262461;
+	padding: 10px;
+	margin-top: 2vh;
+}
+
+.part-two h2 {
+	width: 45vw;
+}
+
+.part-three h2 {
+	width: 45vw;
+}
+
+p {
+	width: 70vh;
+	color: #262461;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	z-index: 100;
+	align-content: center;
+	padding: 2vw;
+	/*background: #FAF0B9;*/
+}
+
+.section-body {
+	background: #9BBFCC;
+	width: 70vh;
+	margin-left: 85vh;
+	margin-top: 4vh;
+	border: 8px solid #262461;
+}
+
+.inline-image{
+	margin-left: 10vh;
+	width: 50vh;
+}
+
+.inline-image.left{
+	width: 20vh;
+}
+
+.inline-image.right {
+	width: 20vh;
+}
+
+.inline-image.landscape {
+	height: 20vh;
+	width: auto;
+}
+
+.inline-image.portrait {
+	width: auto;
+	height: 20vh;
+	margin-left: 6vh;
+}
+
+figcaption {
+	font-size: 8pt;
+	text-align: center;
+	color: #262461;
+	width: 60vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1vw;
+}
+
+figcaption.left{
+	width: 20vh;
+}
+
+figcaption.right{
+	width: 20vh;
+}
+
+.PDF-button{
+	padding-bottom: 5vh;
+	text-align: center;
+	margin-left: 85vh;
+	width: 70vh;
+	
+}
+
+.PDF-button a {
+	color: #fff;
+	
+}
+
+footer {
+	background-image: url("images/new-bedford/ocean-footer.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 50px;
+
+}
+
+footer p {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #fff;
+
+}
+
