@@ -95,7 +95,7 @@ a:hover{
 .map {
 	height: 100vh;
 	width: 71.5vh;
-	background-image: url("images/new-bedford/fixed-map.png");
+	background-image: url("images/new-bedford/nb-map-small.png");
 	background-size: cover;
 	position: sticky;
 	top: 0;

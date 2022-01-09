@@ -95,7 +95,7 @@ a:hover{
 .map {
 	height: 65vh;
 	width: 81.25vh;
-	background-image: url("images/bristol/bristol-numbers.png");
+	background-image: url("images/bristol/bristol-numbers-small.png");
 	background-size: cover;
 	position: sticky;
 	top: 0;
