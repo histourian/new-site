@@ -87,6 +87,14 @@ a{
 	text-decoration: none;
 }
 
+p a {
+	text-decoration: underline;
+}
+
+p a:hover {
+	color: #fff;
+}
+
 a:hover{
 	color:#9bbfcc;
 }

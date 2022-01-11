@@ -92,6 +92,14 @@ a:hover{
 }
 
 
+p a {
+	text-decoration: underline;
+}
+
+p a:hover{
+	color: #fff;
+}
+
 .map {
 	height: 100vh;
 	width: 71.5vh;

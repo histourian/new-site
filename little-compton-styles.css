@@ -91,6 +91,13 @@ a:hover{
 	color:#9bbfcc;
 }
 
+p a {
+	text-decoration: underline;
+}
+
+p a:hover{
+	color: #266126;
+}
 
 .map {
 	height: 100vh;
