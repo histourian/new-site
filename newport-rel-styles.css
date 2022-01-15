@@ -96,7 +96,7 @@ p a {
 }
 
 p a:hover{
-	color: #266126;
+	color: #9BBFCC;
 }
 
 .map {
@@ -134,7 +134,7 @@ p a:hover{
 
 
 footer {
-	background-image: url("images/bricks.jpg");
+	background-image: url("images/newport-rel/clapboards.jpeg");
 	background-size: cover;
 	text-align: center;
 	padding: 50px;
@@ -146,7 +146,7 @@ footer p {
 	margin-right: auto;
 	margin-top: 0;
 	margin-bottom: 0;
-	color:#ffffff
+	color: #262461;
 
 }
 
@@ -310,5 +310,6 @@ figcaption.right{
 	text-align: center;
 	margin-left: 85vh;
 	width: 70vh;
+	margin-top: 5vh;
 	
 }
