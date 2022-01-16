@@ -1,0 +1,485 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+header{
+	width: 100%;
+	/*height: 666px;*/
+	position: absolute;
+	top: 0px;
+	/*background-image: url("images/medium-river.png")*/
+	/*pointer-events: none;*/
+	margin-left: 0px;
+	z-index: 0;
+	
+}
+
+header h1 {
+	position: absolute; 
+	left: 9.5vw;
+	top: 1.5vw; 
+	font-size: 5vw;
+	margin: 0;
+}
+
+.logo img {
+	position: absolute;
+	left: 3vw;
+	top: 2vw;
+	width: 5vw;
+	height: 5vw;
+	
+}
+
+nav { 
+	position: absolute;
+	left: 40vw;
+	top: 0vw;
+	height: 8vw;
+	margin: 0;
+	padding: 0;
+	/*border: solid 1px pink;*/
+	z-index: 4;
+}
+
+nav ul {
+	width: 46vw;
+	height: 8vw;
+	float: right;
+	padding: 0;
+	margin-top: 0;
+	/*border: solid 1px green;*/
+	
+}
+
+nav ul li {
+	list-style-type: none;
+	width: 15vw;
+	height: 8vw;
+	float: left;
+	position: static;
+	font-size: 2.5vw;
+	font-family: 'Sorts Mill Goudy', serif;
+	text-align: center;
+	/*border: solid 1px red;*/
+	padding: 0;
+}
+
+nav ul li a {
+	line-height: 10vw;
+	display: block;
+
+}
+
+h1, h2 {
+	font-family: 'Sorts Mill Goudy', serif;
+	color:#262461;
+	font-weight: 400;
+}
+
+a{
+	color:#262461;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#9bbfcc;
+}
+
+p a {
+	text-decoration: underline;
+}
+
+p a:hover{
+	color: #9BBFCC;
+}
+
+.map {
+	height: 100vh;
+	width: 88.6vh;
+	background-image: url("images/nyc-newport/newport-map-new-crop.png");
+	background-size: cover;
+	position: sticky;
+	top: 0;
+	bottom: 50px;
+	float: left;
+}
+
+
+.comparison {
+	position: sticky;
+	top: 10px;
+}
+
+.comparison h3 {
+	font-family: 'Sorts Mill Goudy', serif;
+	font-size: 3vh;
+	padding: 1vh;
+	background-color: rgba(255, 255, 255, 0.75);
+	color: #262461;
+	text-align: center;
+	height: 6vh;
+}
+
+.comparison.newport h3 {
+	margin-left: 35vh;
+	width: 15vh;
+}
+
+.comparison.newyork h3 {
+	margin-left: 62vh;
+	margin-top: -6vh;
+	width: 16vh;
+
+}
+
+.comparison.seventeenth.name {
+	position: sticky;
+	top: 10vh;
+}
+
+.comparison.seventeenth h3 {
+	margin-left: 41.7vh;
+	width: 28vh;
+	margin-bottom: 2vh;
+	height: 5vh;
+	font-size: 2.5vh;
+}
+
+.comparison.seventeenth p {
+	font-size: 1.5vh;
+	background-color: rgba(155, 191, 204, 0.75);
+	color: #fff;
+	width: 24vh;
+	padding: 1vh;
+}
+
+.comparison.seventeenth {
+	position: sticky;
+	top: 18vh;
+}
+
+.comparison.seventeenth.newport p {
+	text-align: right;
+	margin-left: 28vh;
+}
+
+.comparison.seventeenth.newyork p {
+	text-align: left;
+	margin-left: 60vh;
+}
+
+.comparison.eighteenth.name {
+	position: sticky;
+	top: 33vh;
+}
+
+.comparison.eighteenth h3 {
+	margin-left: 41.7vh;
+	width: 28vh;
+	margin-bottom: 2vh;
+	height: 5vh;
+	font-size: 2.5vh;
+}
+
+.comparison.eighteenth p {
+	font-size: 1.5vh;
+	background-color: rgba(155, 191, 204, 0.75);
+	color: #fff;
+	width: 24vh;
+	padding: 1vh;
+}
+
+.comparison.eighteenth {
+	position: sticky;
+	top: 41vh;
+}
+
+.comparison.eighteenth.newport p {
+	text-align: right;
+	margin-left: 24vh;
+}
+
+.comparison.eighteenth.newyork p {
+	text-align: left;
+	margin-left: 64vh;
+}
+
+.comparison.nineteenth.name {
+	position: sticky;
+	top: 56vh;
+}
+
+.comparison.nineteenth h3 {
+	margin-left: 41.7vh;
+	width: 28vh;
+	margin-bottom: 2vh;
+	height: 5vh;
+	font-size: 2.5vh;
+}
+
+.comparison.nineteenth p {
+	font-size: 1.5vh;
+	background-color: rgba(155, 191, 204, 0.75);
+	color: #fff;
+	width: 24vh;
+	padding: 1vh;
+}
+
+.comparison.nineteenth {
+	position: sticky;
+	top: 62vh;
+}
+
+.comparison.nineteenth.newport p {
+	text-align: right;
+	margin-left: 20vh;
+}
+
+.comparison.nineteenth.newyork p {
+	text-align: left;
+	margin-left: 68vh;
+}
+
+.comparison.twentieth.name {
+	position: sticky;
+	top: 75vh;
+}
+
+.comparison.twentieth h3 {
+	margin-left: 41.7vh;
+	width: 28vh;
+	margin-bottom: 2vh;
+	height: 5vh;
+	font-size: 2.5vh;
+}
+
+.comparison.twentieth p {
+	font-size: 1.5vh;
+	background-color: rgba(155, 191, 204, 0.75);
+	color: #fff;
+	width: 24vh;
+	padding: 1vh;
+}
+
+.comparison.twentieth {
+	position: sticky;
+	top: 83vh;
+}
+
+.comparison.twentieth.newport p {
+	text-align: right;
+	margin-left: 16vh;
+}
+
+.comparison.twentieth.newyork p {
+	text-align: left;
+	margin-left: 72vh;
+}
+
+/*.map img{
+	width: 36%;
+}*/
+
+/*.map {
+ /* background: #e7eef1;
+  padding: 40px 40px 60px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 0 12px 0 -6px #fa90a3;
+
+  position: sticky;
+  top: 0;
+ /* right: 5%;
+  width: 36%;
+
+  /*margin-top: 20vw;
+  background: #9BBFCC;
+  height: 52vw;
+	
+}*/
+
+
+footer {
+	background-image: url("images/bricks.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 50px;
+
+}
+
+footer p {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #FAF4D2;
+
+}
+
+
+/*.row {
+	height: 52vw;
+}
+
+.col {
+	height: 52vw;
+	width: 50%;
+	float: left;
+	
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}*/
+
+.title {
+	margin-top: 12vw;
+	text-align: center;
+	margin-bottom: 4vw;
+	background: #FAF4D2;
+	border: solid 8px #262461;
+	width: 42vw;
+	padding-top: 0.5vw;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2vw;
+}
+
+
+
+.post {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.post::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.post .prose {
+	width: 100%;
+	float: left;
+	background: #FAF4D2;
+	margin-top: -100vh;
+
+}
+
+
+.icon {
+	margin-left: 64.4vh;
+	margin-top: -20vh;
+	width: 21vh;
+	opacity: 0;
+	transition: opacity .3s .25s ease-out;
+	will-change: opacity;
+}
+
+.icon.is-visible{
+	opacity: 1;
+}
+
+
+
+/*.section {
+	width: 100%;
+	border: solid 1px red;
+}*/
+
+.section-head {
+	align-content: center;
+	position: sticky;
+	top: 0px;
+	width: 100vw;
+}
+
+.section h1 {
+	padding-top: 5vw;
+	padding-bottom: 1.5vw;
+	text-align: left;
+	margin-left: 88.6vh;
+	font-size: 6vh;
+	background: #FAF4D2;
+
+}
+
+
+
+p {
+	width: 70vh;
+	color: #262461;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	z-index: 100;
+	align-content: center;
+	padding: 2vw;
+	/*background: #FAF0B9;*/
+}
+
+.section-body {
+	background: #FAF0B9;
+	width: 70vh;
+	margin-left: 90vh;
+}
+
+.inline-image{
+	margin-left: 10vh;
+	width: 50vh;
+	border: 5px solid #D2232A;
+}
+
+.inline-image.left{
+	width: 20vh;
+}
+
+.inline-image.right {
+	width: 20vh;
+}
+
+.inline-image.landscape {
+	height: 20vh;
+	width: auto;
+}
+
+.inline-image.portrait {
+	width: auto;
+	height: 20vh;
+	margin-left: 6vh;
+}
+
+figcaption {
+	font-size: 8pt;
+	text-align: center;
+	color: #262461;
+	width: 60vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figcaption.left{
+	width: 20vh;
+}
+
+figcaption.right{
+	width: 20vh;
+}
+
+.PDF-button{
+	padding-bottom: 5vh;
+	text-align: center;
+	margin-left: 85vh;
+	width: 70vh;
+	margin-top: 5vh;
+	
+}
