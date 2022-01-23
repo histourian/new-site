@@ -140,7 +140,7 @@ p a:hover{
 
 .icon {
 	margin-left: 6vw;
-	margin-top: -12vw;
+	margin-top: -9vw;
 	width: 12vw;
 	opacity: 0;
 	transition: opacity .3s .25s ease-out;
@@ -163,13 +163,11 @@ p a:hover{
 }
 
 .section h1 {
-	padding-top: 3vw;
+	padding-top: 4vw;
 	padding-left: 24vw;
-
 	text-align: left;
 	font-size: 4.5vw;
-
-
+	height: 10vw;
 }
 
 .inline-image{
@@ -347,12 +345,13 @@ footer p {
 .section h1 {
 	padding-top: 5vw;
 	padding-left: 10vw;
-	padding-bottom: 1.5vw;
+	padding-bottom: 6vw;
 	width: 50vw;
 	text-align: left;
 	margin-left: 74.4vh;
 	font-size: 2.75vw;
 	background: #FAF4D2;
+	height: 10vw;
 
 }
 
