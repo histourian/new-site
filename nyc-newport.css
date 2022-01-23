@@ -102,7 +102,7 @@ p a:hover{
 .map {
 	height: 100vh;
 	width: 88.6vh;
-	background-image: url("images/nyc-newport/newport-map-new-crop.png");
+	background-image: url("images/nyc-newport/newport-map-numbers.png");
 	background-size: cover;
 	position: sticky;
 	top: 0;
@@ -110,7 +110,186 @@ p a:hover{
 	float: left;
 }
 
+footer {
+	background-image: url("images/bricks.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 50px;
 
+}
+
+footer p {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #FAF4D2;
+
+}
+
+
+.title {
+	margin-top: 12vw;
+	text-align: center;
+	margin-bottom: 4vw;
+	background: #FAF4D2;
+	border: solid 8px #262461;
+	width: 42vw;
+	padding-top: 0.5vw;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2vw;
+}
+
+
+
+.post {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.post::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.post .prose {
+	width: 100%;
+	float: left;
+	background: #FAF4D2;
+	margin-top: -100vh;
+
+}
+
+
+.icon {
+	margin-left: 64.4vh;
+	margin-top: -20vh;
+	width: 21vh;
+	opacity: 0;
+	transition: opacity .3s .25s ease-out;
+	will-change: opacity;
+}
+
+.icon.is-visible{
+	opacity: 1;
+}
+
+
+
+/*.section {
+	width: 100%;
+	border: solid 1px red;
+}*/
+
+.section-head {
+	align-content: center;
+	position: sticky;
+	top: 0px;
+	/*width: 90vw;*/
+}
+
+.section h1 {
+	padding-top: 5vw;
+	padding-bottom: 1.5vw;
+	text-align: left;
+	margin-left: 95vh;
+	font-size: 3vw;
+	background: #FAF4D2;
+	width: 40vw;
+}
+
+
+
+p {
+	width: 40vw;
+	color: #262461;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	z-index: 100;
+	align-content: center;
+	padding: 2vw;
+	/*background: #FAF0B9;*/
+}
+
+h2 {
+	margin-left: 12vw;
+	padding-top: 3vw;
+	width: 16vw;
+	font-size: 2vw;
+	text-align: center;
+}
+
+.section-body {
+	background: #FAF0B9;
+	width: 40vw;
+	margin-left: 95vh;
+}
+
+.inline-image{
+	margin-left: 7vw;
+	width: 26vw;
+
+}
+
+.inline-image.portrait {
+	width: 12vw;
+	height: auto;
+	margin-left: 14vw;
+}
+
+.cemetery{
+	border: solid 4px #E0D387;
+}
+
+.inline-image.left{
+	width: 20vh;
+}
+
+.inline-image.right {
+	width: 20vh;
+}
+
+.inline-image.landscape {
+	height: 20vh;
+	width: auto;
+}
+
+
+
+figcaption {
+	font-size: 8pt;
+	text-align: center;
+	color: #262461;
+	width: 60vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figcaption.left{
+	width: 20vh;
+}
+
+figcaption.right{
+	width: 20vh;
+}
+
+.PDF-button{
+	padding-bottom: 5vh;
+	text-align: center;
+	margin-left: 95vh;
+	width: 40vw;
+	margin-top: 5vh;
+}
+
+h3 {
+	font-family: 'Sorts Mill Goudy', serif;
+	font-size: 1.5vw;
+}
+
+
+
+/*
 .comparison {
 	position: sticky;
 	top: 10px;
@@ -280,206 +459,4 @@ p a:hover{
 .comparison.twentieth.newyork p {
 	text-align: left;
 	margin-left: 72vh;
-}
-
-/*.map img{
-	width: 36%;
-}*/
-
-/*.map {
- /* background: #e7eef1;
-  padding: 40px 40px 60px;
-  box-sizing: border-box;
-  border-radius: 2px;
-  box-shadow: 0 12px 0 -6px #fa90a3;
-
-  position: sticky;
-  top: 0;
- /* right: 5%;
-  width: 36%;
-
-  /*margin-top: 20vw;
-  background: #9BBFCC;
-  height: 52vw;
-	
-}*/
-
-
-footer {
-	background-image: url("images/bricks.jpg");
-	background-size: cover;
-	text-align: center;
-	padding: 50px;
-
-}
-
-footer p {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0;
-	margin-bottom: 0;
-	color: #FAF4D2;
-
-}
-
-
-/*.row {
-	height: 52vw;
-}
-
-.col {
-	height: 52vw;
-	width: 50%;
-	float: left;
-	
-}
-
-.row:before, .row:after {
-	content: "";
-	display: table;
-}
-
-.row:after {
-	clear: both;
-}*/
-
-.title {
-	margin-top: 12vw;
-	text-align: center;
-	margin-bottom: 4vw;
-	background: #FAF4D2;
-	border: solid 8px #262461;
-	width: 42vw;
-	padding-top: 0.5vw;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 2vw;
-}
-
-
-
-.post {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.post::after {
-  display: table;
-  content: "";
-  clear: both;
-}
-
-.post .prose {
-	width: 100%;
-	float: left;
-	background: #FAF4D2;
-	margin-top: -100vh;
-
-}
-
-
-.icon {
-	margin-left: 64.4vh;
-	margin-top: -20vh;
-	width: 21vh;
-	opacity: 0;
-	transition: opacity .3s .25s ease-out;
-	will-change: opacity;
-}
-
-.icon.is-visible{
-	opacity: 1;
-}
-
-
-
-/*.section {
-	width: 100%;
-	border: solid 1px red;
-}*/
-
-.section-head {
-	align-content: center;
-	position: sticky;
-	top: 0px;
-	width: 100vw;
-}
-
-.section h1 {
-	padding-top: 5vw;
-	padding-bottom: 1.5vw;
-	text-align: left;
-	margin-left: 88.6vh;
-	font-size: 6vh;
-	background: #FAF4D2;
-
-}
-
-
-
-p {
-	width: 70vh;
-	color: #262461;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	z-index: 100;
-	align-content: center;
-	padding: 2vw;
-	/*background: #FAF0B9;*/
-}
-
-.section-body {
-	background: #FAF0B9;
-	width: 70vh;
-	margin-left: 90vh;
-}
-
-.inline-image{
-	margin-left: 10vh;
-	width: 50vh;
-	border: 5px solid #D2232A;
-}
-
-.inline-image.left{
-	width: 20vh;
-}
-
-.inline-image.right {
-	width: 20vh;
-}
-
-.inline-image.landscape {
-	height: 20vh;
-	width: auto;
-}
-
-.inline-image.portrait {
-	width: auto;
-	height: 20vh;
-	margin-left: 6vh;
-}
-
-figcaption {
-	font-size: 8pt;
-	text-align: center;
-	color: #262461;
-	width: 60vh;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-figcaption.left{
-	width: 20vh;
-}
-
-figcaption.right{
-	width: 20vh;
-}
-
-.PDF-button{
-	padding-bottom: 5vh;
-	text-align: center;
-	margin-left: 85vh;
-	width: 70vh;
-	margin-top: 5vh;
-	
-}
+} */

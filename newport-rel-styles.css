@@ -99,6 +99,156 @@ p a:hover{
 	color: #9BBFCC;
 }
 
+
+.map {
+	width: 100vw;
+	height: 134.4vw;
+	background-image: url("images/newport-rel/newport-full.png");
+	background-size: cover;
+}
+
+.title {
+	margin-top: 12vw;
+	text-align: center;
+	margin-bottom: 4vw;
+	background: #FAF4D2;
+	border: solid 4px #D2232A;
+	width: 60vw;
+	padding-top: 0.5vw;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 3vw;
+}
+
+.post {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.post::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.post .prose {
+	width: 100%;
+	float: left;
+	background: #FAF4D2;
+
+}
+
+.icon {
+	margin-left: 6vw;
+	margin-top: -12vw;
+	width: 12vw;
+	opacity: 0;
+	transition: opacity .3s .25s ease-out;
+	will-change: opacity;
+}
+
+.icon.is-visible{
+	opacity: 1;
+}
+
+.section-head {
+	align-content: center;
+	position: sticky;
+	top: 0px;
+	width: 100vw;
+	height: 14vw;
+	background: #FAF0B9;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+
+.section h1 {
+	padding-top: 3vw;
+	padding-left: 24vw;
+
+	text-align: left;
+	font-size: 4.5vw;
+
+
+}
+
+.inline-image{
+	margin-left: 25vw;
+	width: 50vw;
+	border: 5px solid #D2232A;
+}
+
+.inline-image.left{
+	width: 20vw;
+	margin-left: 25vw;
+}
+
+.inline-image.right {
+	width: 20vw;
+	margin-left: 10vw;
+}
+
+.inline-image.landscape {
+	height: 20vh;
+	width: auto;
+}
+
+.inline-image.portrait {
+	width: auto;
+	height: 20vh;
+	margin-left: 6vh;
+}
+
+p {
+	width: 80vw;
+	margin-left: 10vw;
+	color: #262461;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	z-index: 100;
+	align-content: center;
+	padding: 2vw;
+	/*background: #FAF0B9;*/
+}
+
+figcaption {
+	font-size: 8pt;
+	text-align: center;
+	color: #262461;
+	width: 60vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.PDF-button{
+	padding-bottom: 5vh;
+	text-align: center;
+	width: 80vw;
+	margin-top: 5vh;
+	margin-left: 10vw;
+	
+}
+
+footer {
+	background-image: url("images/newport-rel/clapboards.jpeg");
+	background-size: cover;
+	text-align: center;
+	padding: 50px;
+
+}
+
+footer p {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #262461;
+
+}
+
+@media (min-width: 1024px) {
+
+
+
 .map {
 	height: 100vh;
 	width: 74.4vh;
@@ -109,29 +259,6 @@ p a:hover{
 	bottom: 50px;
 	float: left;
 }
-
-/*.map img{
-	width: 36%;
-}*/
-
-/*.map {
- /* background: #e7eef1;
-  padding: 40px 40px 60px;
-  box-sizing: border-box;
-  border-radius: 2px;
-  box-shadow: 0 12px 0 -6px #fa90a3;
-
-  position: sticky;
-  top: 0;
- /* right: 5%;
-  width: 36%;
-
-  /*margin-top: 20vw;
-  background: #9BBFCC;
-  height: 52vw;
-	
-}*/
-
 
 footer {
 	background-image: url("images/newport-rel/clapboards.jpeg");
@@ -151,25 +278,6 @@ footer p {
 }
 
 
-/*.row {
-	height: 52vw;
-}
-
-.col {
-	height: 52vw;
-	width: 50%;
-	float: left;
-	
-}
-
-.row:before, .row:after {
-	content: "";
-	display: table;
-}
-
-.row:after {
-	clear: both;
-}*/
 
 .title {
 	margin-top: 12vw;
@@ -208,7 +316,7 @@ footer p {
 
 .icon {
 	margin-left: 64.4vh;
-	margin-top: -20vh;
+	margin-top: -120px;
 	width: 21vh;
 	opacity: 0;
 	transition: opacity .3s .25s ease-out;
@@ -231,16 +339,19 @@ footer p {
 	position: sticky;
 	top: 0px;
 	width: 100vw;
+	background: none;
+	height: 20vh;
+	padding: 0;
 }
 
 .section h1 {
 	padding-top: 5vw;
 	padding-left: 10vw;
 	padding-bottom: 1.5vw;
-	width: 750px;
+	width: 50vw;
 	text-align: left;
 	margin-left: 74.4vh;
-	font-size: 6vh;
+	font-size: 2.75vw;
 	background: #FAF4D2;
 
 }
@@ -248,7 +359,8 @@ footer p {
 
 
 p {
-	width: 70vh;
+	width: 40vw;
+	margin-left: 0;
 	color: #262461;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	z-index: 100;
@@ -259,22 +371,24 @@ p {
 
 .section-body {
 	background: #FAF0B9;
-	width: 70vh;
+	width: 40vw;
 	margin-left: 85vh;
 }
 
 .inline-image{
-	margin-left: 10vh;
-	width: 50vh;
+	margin-left: 7vw;
+	width: 26vw;
 	border: 5px solid #D2232A;
 }
 
 .inline-image.left{
-	width: 20vh;
+	width: 12vw;
+	margin-left: 6vw;
 }
 
 .inline-image.right {
-	width: 20vh;
+	width: 12vw;
+	margin-left: 4vw;
 }
 
 .inline-image.landscape {
@@ -309,7 +423,8 @@ figcaption.right{
 	padding-bottom: 5vh;
 	text-align: center;
 	margin-left: 85vh;
-	width: 70vh;
+	width: 40vw;
 	margin-top: 5vh;
 	
+}
 }
