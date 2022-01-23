@@ -206,6 +206,7 @@ p {
 	z-index: 100;
 	align-content: center;
 	padding: 2vw;
+	font-size: 18px;
 	/*background: #FAF0B9;*/
 }
 
@@ -364,6 +365,7 @@ p {
 	align-content: center;
 	padding: 2vw;
 	margin-left: 0;
+	font-size: 16px;
 	/*background: #FAF0B9;*/
 }
 
