@@ -330,9 +330,6 @@ footer p {
 }
 
 
-
-
-
 .section-head {
 	align-content: center;
 	position: sticky;
@@ -348,7 +345,7 @@ footer p {
 	width: 55vw;
 	text-align: left;
 	margin-left: 62vh;
-	font-size: 6vh;
+	font-size: 3vw;
 	background: #B25959;
 	color: white;
 
@@ -376,8 +373,8 @@ p {
 }
 
 .inline-image{
-	margin-left: 10vh;
-	width: 50vh;
+	margin-left: 5vw;
+	width: 30vw;
 }
 
 .inline-image.left{
@@ -405,24 +402,17 @@ figcaption {
 	font-size: 8pt;
 	text-align: center;
 	color: #262461;
-	width: 60vh;
+	width: 30vw;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-figcaption.left{
-	width: 20vh;
-}
-
-figcaption.right{
-	width: 20vh;
-}
 
 .PDF-button{
 	padding-bottom: 5vh;
 	text-align: center;
 	margin-left: 75vh;
-	width: 70vh;
+	width: 40vw;
 	
 }
 }

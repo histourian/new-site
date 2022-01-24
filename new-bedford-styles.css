@@ -88,7 +88,7 @@ a{
 }
 
 a:hover{
-	color:#9bbfcc;
+	color:#fff;
 }
 
 
@@ -101,6 +101,199 @@ p a:hover{
 }
 
 .map {
+	width: 100vw;
+	height: 139.86vw;
+	background-image: url("images/new-bedford/nb-map-small.png");
+	background-size: cover;
+	border-bottom: solid 8px #262461;
+}
+
+.title {
+	margin-top: 12vw;
+	text-align: center;
+	margin-bottom: 4vw;
+	background: #9BBFCC;
+	border: solid 8px #262461;
+	width: 60vw;
+	padding-top: 0.5vw;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 3vw;
+}
+
+.intro p {
+	margin-top: 4vw;
+}
+
+
+.title h1{
+	color: #262461;
+}
+
+.post {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.post::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.post .prose {
+	width: 100%;
+	float: left;
+	background: #9BBFCC;
+
+}
+
+.icon {
+	margin-left: 6vw;
+	width: 20vw;
+	margin-top: -20vw;
+	opacity: 0;
+	transition: opacity .3s .25s ease-out;
+	will-change: opacity;
+}
+
+.icon.is-visible{
+	opacity: 1;
+}
+
+
+.part-one h2 {
+	text-align: center;
+	width: 55vw;
+	margin-left: 22.5vw;
+	background: #406CAD;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	border: solid 4px #262461;
+	height: auto;
+	padding-top: 1vw;
+	align-content: center;
+}
+
+.part-two h2 {
+	text-align: center;
+	width: 55vw;
+	margin-left: 22.5vw;
+	background: #406CAD;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	border: solid 4px #262461;
+	height: auto;
+	padding-top: 1vw;
+	align-content: center;
+}
+
+.part-three h2 {
+	text-align: center;
+	width: 55vw;
+	margin-left: 22.5vw;
+	background: #406CAD;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	border: solid 4px #262461;
+	height: auto;
+	padding-top: 1vw;
+	align-content: center;
+}
+
+.section-head h2 {
+	size: 40px;
+	color: #fff;
+	text-align: center;
+}
+
+.section-head p {
+	margin-left: 0;
+}
+
+.inline-image{
+	margin-left: 25vw;
+	width: 50vw;
+}
+
+.inline-image.left{
+	width: 20vw;
+	margin-left: 25vw;
+}
+
+.inline-image.right {
+	width: 20vw;
+	margin-left: 10vw;
+}
+
+.inline-image.landscape {
+	height: 20vh;
+	width: auto;
+}
+
+.inline-image.portrait {
+	width: auto;
+	height: 20vh;
+	margin-left: 6vh;
+}
+
+p {
+	width: 80vw;
+	margin-left: 10vw;
+	color: #262461;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	z-index: 100;
+	align-content: center;
+	padding: 2vw;
+	/*background: #FAF0B9;*/
+}
+
+figcaption {
+	font-size: 8pt;
+	text-align: center;
+	color: #262461;
+	width: 60vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4vw;
+}
+
+footer {
+	background-image: url("images/new-bedford/ocean-footer.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 50px;
+}
+
+footer p {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #fff;
+}
+
+.star {
+	display: none;
+}
+
+.PDF-button{
+	padding-bottom: 5vh;
+	text-align: center;
+	margin-top: 5vh;
+	margin-left: 10vw;
+	width: 80vw;
+	
+}
+
+.PDF-button a {
+	color: #fff;
+}
+	
+
+@media (min-width: 1024px) {
+
+.map {
 	height: 100vh;
 	width: 71.5vh;
 	background-image: url("images/new-bedford/nb-map-small.png");
@@ -108,7 +301,8 @@ p a:hover{
 	position: sticky;
 	top: 0;
 	float: left;
-	border: 1px red;
+	margin-bottom: 0;
+	border: none;
 }
 
 
@@ -129,7 +323,9 @@ p a:hover{
 	color: #262461;
 }
 
-
+.intro p {
+	margin-top: 0;
+}
 
 .post {
   width: 100%;
@@ -173,7 +369,8 @@ p a:hover{
 	height: 100vh;
 	width: 71.5vh;
 	margin-left: 0;
-
+	background: none;
+	border: none;
 }
 
 /*.section-head.part-one {
@@ -185,6 +382,7 @@ p a:hover{
 	width: 100%;
 	height: 100%;
 	margin-top: -20.75vh;
+	display: inline;
 }
 
 .section-head h2 {
@@ -197,6 +395,7 @@ p a:hover{
 	border: solid 8px #262461;
 	padding: 10px;
 	margin-top: 2vh;
+
 }
 
 .part-two h2 {
@@ -208,34 +407,37 @@ p a:hover{
 }
 
 p {
-	width: 70vh;
+	width: 40vw;
 	color: #262461;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	z-index: 100;
 	align-content: center;
 	padding: 2vw;
+	margin-left: 0;
 	/*background: #FAF0B9;*/
 }
 
 .section-body {
 	background: #9BBFCC;
-	width: 70vh;
+	width: 40vw;
 	margin-left: 85vh;
 	margin-top: 4vh;
 	border: 8px solid #262461;
 }
 
 .inline-image{
-	margin-left: 10vh;
-	width: 50vh;
+	margin-left: 5vw;
+	width: 30vw;
 }
 
 .inline-image.left{
-	width: 20vh;
+	width: 12vw;
+	margin-left: 6vw;
 }
 
 .inline-image.right {
-	width: 20vh;
+	width: 12vw;
+	margin-left: 4vw;
 }
 
 .inline-image.landscape {
@@ -296,4 +498,4 @@ footer p {
 	color: #fff;
 
 }
-
+}
