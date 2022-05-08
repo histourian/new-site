@@ -122,85 +122,40 @@ a:hover{
 }
 
 footer {
-	background-image: url("images/bricks.jpg");
+	background-color: #FAF4D2;
 	background-size: cover;
 	text-align: center;
 	padding: 50px;
-	color:#ffffff
+	color: #262461;
 
 }
 
-@media (min-width: 768px) {
-	
-			.col-comp {
-	width: 50%;
-	}
-	.col {
-		float: left;
-	}
-	
-	.blurb{
-		font-size: 20px;
-		margin-left: 21vw;
-		width: 60vw;
-	}
-	
-	.them {
-		padding-top: 4vw;
-	}
-	
-	
-}
+
 
 
 
 @media (min-width: 1024px) {
 	
-		.col-comp {
-	width: 50%;
-	}
-	.col {
-		float: left;
+
+	.text{
+		width: 50vw;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 25vh;
+		
 	}
 	
-	.blurb{
-		font-size: 24px;
-		margin-left: 21vw;
+	.map-container{
+		margin-top: 5vh;
 		width: 60vw;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 15vh;
+		
 	}
 	
-
-	.them {
-	width: 30vw;
-	margin-left: 14vw;
-	margin-top: 6vw;
-	padding: 2vw;
-	}
-
 	
-	.them p {
-	margin-bottom: 2vw;
-	}
-	
-
-	.them h2 {
-	color: #000;
-	margin-bottom: 2vw;
-	}
-	
-	.us{
-		width: 40vw;
-		padding: 2vw;
-		margin-bottom: 6vw;
-	}
-	
-	.us p {
-	margin-bottom: 2vw;
-	border: solid 4px #262461;
-	background: #9BBFCC;
-	padding: 1vw;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	}
 	
 }
 
