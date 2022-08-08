@@ -9,46 +9,47 @@
 
 header{
 	width: 100%;
-	/*height: 666px;*/
-	position: fixed;
+	position: static;
 	top: 0px;
-	/*background-image: url("images/medium-river.png")*/
-	/*pointer-events: none;*/
-}
 
+}
 
 header h1 {
 	position: fixed; 
-	left: 9.5vw;
+	left: 14vw;
 	top: 1.5vw; 
-	font-size: 5vw;
+	font-size: 7vw;
 	margin: 0;
 }
 
-.river img {
-	width: 100%;
-	pointer-events: none;
-	
+.river{
+	height: 34.98vw;
+	width: 60vw;
+	background-image: url("images/mobile-river.png");
+	background-size: 60vw;
+	background-attachment: fixed;
+	position: fixed;
 }
+
 
 .logo img {
 	position: fixed;
-	left: 3vw;
+	left: 5vw;
 	top: 2vw;
-	width: 5vw;
-	height: 5vw;
+	width: 7vw;
+	height: 7vw;
 	
 }
 
 nav { 
-	position: fixed;
-	left: 40vw;
+	position: static;
+	left: 65vw;
 	top: 0vw;
 	height: 8vw;
-	margin: 0;
+	margin-left: 5vw;
 	padding: 0;
-	/*border: solid 1px pink;*/
 	z-index: 4;
+
 }
 
 nav ul {
@@ -56,22 +57,22 @@ nav ul {
 	height: 8vw;
 	float: right;
 	padding: 0;
-	margin-top: 0;
-	/*border: solid 1px green;*/
-	
+	margin-top: 2vw;	
+
 }
 
 nav ul li {
-	list-style-type: none;
-	width: 15vw;
+	list-style-type: circle;
+	width: 25vw;
 	height: 8vw;
-	float: left;
+	/*float: left;*/
 	position: static;
-	font-size: 2.5vw;
+	font-size: 4vw;
 	font-family: 'Sorts Mill Goudy', serif;
-	text-align: center;
-	/*border: solid 1px red;*/
+	text-align: left;
 	padding: 0;
+	margin-left: 12vw;
+
 }
 
 nav ul li a {
@@ -79,6 +80,7 @@ nav ul li a {
 	display: block;
 
 }
+
 
 h1, h2, h3{
 	font-family: 'Sorts Mill Goudy', serif;
@@ -99,10 +101,10 @@ h1, h2, h3{
 .blurb {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	color:#262461;
-	margin-top: 18vw;
+	margin-top: 24vw;
 	margin-left: 12vw;
 	width: 80vw;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1.25;
 	
 }
@@ -130,7 +132,7 @@ h1, h2, h3{
 .them p {
 	margin-bottom: 2vw;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-
+	/*font-size: 20pt;*/
 }
 
 .us {
@@ -157,7 +159,8 @@ h1, h2, h3{
 	background: #9BBFCC;
 	padding: 2vw;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	
+	/*font-size: 20pt;*/
+
 }
 
 a{
@@ -219,6 +222,79 @@ footer {
 
 @media (min-width: 1024px) {
 	
+	
+	header{
+	width: 100%;
+	/*height: 666px;*/
+	position: fixed;
+	top: 0px;
+	/*background-image: url("images/medium-river.png")*/
+	/*pointer-events: none;*/
+	}
+
+	header h1 {
+	position: fixed; 
+	left: 9.5vw;
+	top: 1.5vw; 
+	font-size: 5vw;
+	margin: 0;
+	}
+
+	.river{
+	background-image: url("images/medium-river.png");
+	background-size: 100vw;
+	background-attachment: fixed;
+	position: fixed;
+	height: 25.2vw;
+	width: 100vw;
+	}
+	
+	.logo img {
+	position: fixed;
+	left: 3vw;
+	top: 2vw;
+	width: 5vw;
+	height: 5vw;
+	}
+
+	nav { 
+	position: fixed;
+	left: 40vw;
+	top: 0vw;
+	height: 8vw;
+	margin: 0;
+	padding: 0;
+	/*border: solid 1px pink;*/
+	z-index: 4;
+	}
+
+	nav ul {
+	width: 46vw;
+	height: 8vw;
+	float: right;
+	padding: 0;
+	margin-top: 0;
+	}
+
+	nav ul li {
+	list-style-type: none;
+	width: 15vw;
+	height: 8vw;
+	float: left;
+	position: static;
+	font-size: 2.5vw;
+	font-family: 'Sorts Mill Goudy', serif;
+	text-align: center;
+	padding: 0;
+	margin-left: 0;
+	}
+
+
+	nav ul li a {
+	line-height: 10vw;
+	display: block;
+	}
+	
 		.col-comp {
 	width: 50%;
 	}
@@ -230,6 +306,7 @@ footer {
 		font-size: 24px;
 		margin-left: 21vw;
 		width: 60vw;
+		margin-top: 20vw;
 	}
 	
 

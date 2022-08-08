@@ -103,7 +103,7 @@ p a:hover{
 .map {
 	width: 100vw;
 	height: 134.4vw;
-	background-image: url("images/merrimack/higher-res.jpg");
+	background-image: url("images/merrimack/map-final.jpg");
 	background-size: cover;
 }
 
@@ -159,7 +159,7 @@ p a:hover{
 	height: 8vw;
 	margin-top: 2vw;
 	margin-bottom: 2vw;
-	background: #9BCCA0;
+	background-color: #9BCCA0;
 }
 
 .section h1 {
@@ -167,20 +167,27 @@ p a:hover{
 	text-align: left;
 	font-size: 6vw;
 	height: 8vw;
+	color: #262461;
+}
+
+.section-body {
+	background: #9BBFCC;
+	width: 90vw;
+	margin-left: 5vw;
 }
 
 .inline-image{
-	margin-left: 25vw;
+	margin-left: 20vw;
 	width: 50vw;
 }
 
 .inline-image.left{
-	width: 20vw;
-	margin-left: 25vw;
+	width: 25vw;
+	margin-left: 15vw;
 }
 
 .inline-image.right {
-	width: 20vw;
+	width: 25vw;
 	margin-left: 10vw;
 }
 
@@ -199,8 +206,9 @@ p a:hover{
 
 p {
 	width: 80vw;
-	margin-left: 10vw;
-	color: #262461;
+	margin-left: 5vw;
+	padding-top: 5vw;
+	color:#262461;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	align-content: center;
 	padding: 2vw;
@@ -222,7 +230,10 @@ figcaption {
 	width: 80vw;
 	margin-top: 5vh;
 	margin-left: 10vw;
-	
+}
+
+.PDF-button a{
+	color: #fff;
 }
 
 footer {
@@ -388,6 +399,8 @@ footer p {
 	padding-top: 1.5vw;
 	background: none;
 	height: 8vw;
+	color: #fff;
+	
 
 }
 
