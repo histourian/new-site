@@ -176,7 +176,7 @@ a:hover{
 }
 
 .section-head h2 {
-	size: 40px;
+	size: 50px;
 	padding-left: 4vw;
 }
 
@@ -219,6 +219,7 @@ p {
 	z-index: 100;
 	align-content: center;
 	padding: 2vw;
+	font-size: 16pt;
 	/*background: #FAF0B9;*/
 }
 
