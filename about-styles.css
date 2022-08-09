@@ -23,7 +23,7 @@ header h1 {
 }
 
 .river{
-	height: 34.98vw;
+	height: 34.9vw;
 	width: 60vw;
 	background-image: url("images/mobile-river.png");
 	background-size: 60vw;
@@ -104,7 +104,7 @@ h1, h2, h3{
 	margin-top: 24vw;
 	margin-left: 12vw;
 	width: 80vw;
-	font-size: 20px;
+	font-size: 40px;
 	line-height: 1.25;
 	
 }
@@ -195,29 +195,6 @@ footer {
 	color:#ffffff
 
 }
-
-@media (min-width: 768px) {
-	
-			.col-comp {
-	width: 50%;
-	}
-	.col {
-		float: left;
-	}
-	
-	.blurb{
-		font-size: 20px;
-		margin-left: 21vw;
-		width: 60vw;
-	}
-	
-	.them {
-		padding-top: 4vw;
-	}
-	
-	
-}
-
 
 
 @media (min-width: 1024px) {
