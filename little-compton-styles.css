@@ -27,8 +27,7 @@ header h1 {
 	width: 60vw;
 	background-image: url("images/mobile-river.png");
 	background-size: 60vw;
-	background-attachment: relative;
-	position: relative;
+	position: absolute;
 }
 
 
@@ -42,13 +41,13 @@ header h1 {
 }
 
 nav { 
-	position: absolute;
+	position: static;
+	left: 65vw;
 	top: 0vw;
 	height: 8vw;
-	margin-left: 65vw;
+	margin-left: 5vw;
 	padding: 0;
 	z-index: 4;
-	width: 15vw;
 
 }
 
@@ -71,7 +70,8 @@ nav ul li {
 	font-family: 'Sorts Mill Goudy', serif;
 	text-align: left;
 	padding: 0;
-	margin-left: 30vw;
+	margin-left: 12vw;
+
 }
 
 nav ul li a {
@@ -112,7 +112,7 @@ p a:hover{
 }
 
 .title {
-	margin-top: 12vw;
+	margin-top: 24vw;
 	text-align: center;
 	margin-bottom: 4vw;
 	background: #9BBFCC;
@@ -210,7 +210,7 @@ p {
 	z-index: 100;
 	align-content: center;
 	padding: 2vw;
-	font-size: 8vw;
+	font-size: 5vw;
 	/*background: #FAF0B9;*/
 }
 
@@ -250,6 +250,78 @@ footer p {
 }
 
 @media (min-width: 1024px) {
+	
+	header{
+	width: 100%;
+	/*height: 666px;*/
+	position: absolute;
+	top: 0px;
+	margin-left: 0px;
+	/*background-image: url("images/medium-river.png")*/
+	/*pointer-events: none;*/
+	}
+
+	header h1 {
+	position: absolute; 
+	left: 9.5vw;
+	top: 1.5vw; 
+	font-size: 5vw;
+	margin: 0;
+	}
+
+	.river{
+	background-image: none;
+	position: absolute;
+	height: 25.2vw;
+	width: 100vw;
+	}
+	
+	.logo img {
+	position: absolute;
+	left: 3vw;
+	top: 2vw;
+	width: 5vw;
+	height: 5vw;
+	}
+
+	nav { 
+	position: absolute;
+	left: 40vw;
+	top: 0vw;
+	height: 8vw;
+	margin: 0;
+	padding: 0;
+	/*border: solid 1px pink;*/
+	z-index: 4;
+	}
+
+	nav ul {
+	width: 46vw;
+	height: 8vw;
+	float: right;
+	padding: 0;
+	margin-top: 0;
+	}
+
+	nav ul li {
+	list-style-type: none;
+	width: 15vw;
+	height: 8vw;
+	float: left;
+	position: static;
+	font-size: 2.5vw;
+	font-family: 'Sorts Mill Goudy', serif;
+	text-align: center;
+	padding: 0;
+	margin-left: 0;
+	}
+
+
+	nav ul li a {
+	line-height: 10vw;
+	display: block;
+	}
+	
 
 .map {
 	height: 100vh;
@@ -408,6 +480,7 @@ p {
 	align-content: center;
 	padding: 2vw;
 	margin-left: 0;
+	font-size: 12pt;
 	/*background: #FAF0B9;*/
 }
 

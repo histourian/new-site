@@ -104,7 +104,7 @@ h1, h2, h3{
 	margin-top: 24vw;
 	margin-left: 12vw;
 	width: 80vw;
-	font-size: 40px;
+	font-size: 5vw;
 	line-height: 1.25;
 	
 }
@@ -132,6 +132,7 @@ h1, h2, h3{
 .them p {
 	margin-bottom: 2vw;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 4vw;
 	/*font-size: 20pt;*/
 }
 
@@ -159,7 +160,7 @@ h1, h2, h3{
 	background: #9BBFCC;
 	padding: 2vw;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	/*font-size: 20pt;*/
+	font-size: 4vw;
 
 }
 
