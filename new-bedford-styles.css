@@ -95,6 +95,13 @@ a:hover{
 	color:#fff;
 }
 
+li a:hover{
+	color:#9BBFCC;
+}
+
+h1 a:hover{
+	color:#9BBFCC;
+}
 
 p a {
 	text-decoration: underline;
