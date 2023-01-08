@@ -121,6 +121,7 @@ h1, h2, h3{
 .them {
 	margin-top: 6vw;
 	padding: 8vw;
+
 }
 
 .them h2 {
@@ -143,6 +144,7 @@ h1, h2, h3{
 	padding: 4vw;
 	color: #262461;
 	margin-bottom: 12vw;
+
 	
 }
 
@@ -290,9 +292,9 @@ footer {
 
 	.them {
 	width: 30vw;
-	margin-left: 14vw;
 	margin-top: 6vw;
 	padding: 2vw;
+	margin-left: 6vw;
 	}
 
 	
@@ -311,6 +313,8 @@ footer {
 		width: 40vw;
 		padding: 2vw;
 		margin-bottom: 6vw;
+		margin-left: 14vw;
+
 	}
 	
 	.us p {
